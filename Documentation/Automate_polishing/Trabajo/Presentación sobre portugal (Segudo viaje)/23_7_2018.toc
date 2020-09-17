@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{First day}{3}{0}{1}
+\beamer@sectionintoc {2}{Second day}{3}{0}{2}
+\beamer@sectionintoc {3}{Third day}{3}{0}{3}
+\beamer@sectionintoc {4}{fourth day}{3}{0}{4}
+\beamer@sectionintoc {5}{fifth day}{3}{0}{5}

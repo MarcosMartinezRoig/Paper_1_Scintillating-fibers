@@ -1,0 +1,88 @@
+Bunch de 25 fibras de 20 cm cortadas, pulidas y limpiadas con el proceso del ICMOL (uno con UV y otro sin).
+Comparación de lo quemadas que estaban las fibra debido al UV. 
+
+PMT 1 y 2 with HV=850 V
+
+Modulo CAEN 4 channels discrimindor. 
+	Canal utilizado = 2. Umbral approx 60 mV.
+
+Modulo Model 620AL 8 channels discrimindor. 
+	Canal utilizado = 1. Umbral approx 60 mV.
+
+Gate and delay generator -> Puerta
+	Puerta de 2 microsegundos
+	Rueda=2.0
+	switch 1.1microsegundos
+
+Preamplificador ORTEC MODEL 9326 FAST PREAMPLI. 
+Amplificador ORTEC 575A
+	+Fine Gain: 10
+	+Course Gain: 10
+
+MCA pocket MCA8000D
+	High gate.
+
+Lo estudio a realizar son:
+
+- Estudio de la calidad del pulido (bunch junto y separado):
+	Un bunch de 25 fibras de 15 cm pulido y otro sin pulir (limpieza con isopropanol). 
+		Comparación con varias fuentes (Sr-90, Co-60)
+		Comparación a nivel de colección de luz (LED azul)
+
+- Estudio de la calidad de la limpieza del ICMOL (bunch junto y separado):
+	Un bunch de 25 fibras de 15 cm pulido (uno limpiado con isopropanol y otro en el ICMOL in UV). 
+		Comparación con varias fuentes (Sr-90, Co-60)
+		Comparación a nivel de colección de luz (LED azul)
+
+- Estudio de como afecta el UV a las fibras (unicamente a nivel de producción de luz, ya que en teoría no afecta 
+a la colección. Quizá sea interesante comprobar que es verdad)
+	Bunchs de 25 fibras de 15 cm (pulidas o no, dependiendo del resultado anterior) con el proceso de limpieza del ICMOL.
+		+Uno sin UV, uno con 30 seg. de UV y otro con 1 min. de UV.
+
+
+-Estudio de la variación de la relación entre señal y longitud de las fibras (fibras de varias longitudes 
+(10 cm, 15 cm, 20 cm, 25 cm, 30 cm))
+
+Empezamos comprobando la calidad del pulido:
+
+Ponemos un bunch de 25 fibras de 15 cm sin pulir entre 2 PMTs y adquirimos en coincidencia con l configuración
+explicada arriba
+
+2/9/2019 Medimos fondo. 
+3/9/2019 S nos olvido poner grasa optica en uno de los PMTs. Repetimos la medida y, ademas, reducimos la amplificación.
+Cambiamos el valor del Course Gain a 4
+
+4/9/2019 Medimos fuente de Sr 90 por la mañana y Co 60 por la tarde. 
+
+A ultima hora de la tarde sustituimos por otro bunch de 25 fibras de 15 cm pulidas.
+
+Medimos fondo durante un dia.
+
+5/9/2019 Al final del dia ponemos la fuente de Sr 90 y tomamos la medida
+
+6/9/2019 A primera hora de la mañana medimos con la fuente de Co 60
+
+Ha salido mal. Posibles causas: Eran bunch diferentes y cada uno tiene un error asociado al proceso de corte. 
+
+Solución: Repetir experimento con un bunch de fibras no pulido y, al terminar las medidas, pulirlo, y repetir el experimento
+con el mismo bunch.
+
+12/09/2019
+
+Ponemos el bunch sin pulir y medimos fondo.
+
+16/09/2019
+Ha llovido, han cerrado la universidad, no sabemos como habrá afectado a la medida.
+Por seguridad repetimos la medida del fondo ya que, una vez pulido, no podemos volverlo a medir.
+
+17/09/2019
+Medimos con la fuente de Sr-90
+Medimos con la fuente de Co-60
+
+
+ 
+
+
+
+
+

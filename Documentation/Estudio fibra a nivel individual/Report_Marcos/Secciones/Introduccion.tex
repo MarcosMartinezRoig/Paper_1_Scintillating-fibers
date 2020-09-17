@@ -1,0 +1,44 @@
+En este trabajo se ha realizado en el marco del proyecto Tritium. Su objetivo es realizar una caracterización de las fibras, modelo BCF-12, de Saint-Gobain. A pesar de que para el proyecto Tritium únicamente es interesante las fibras sin clad, con el objetivo de obtener un estudio completo, este estudio se ha extendido también para las fibras single clad y multi clad por completitud.
+
+La diferencia entre estos tres tipos de fibra esta en que la no clad esta formada únicamente por un nucleo de poliestileno con un indice de refracicón de $1.60$ mientras que, en la single clad, el nucleo se encuentra recubierto por un material acrilico con un grosor de $30~\mu\meter$ y con un índice de refracción de $1.49$, un índice menor para asegurar la reflexión de los fotones por encima de un cierto ángulo con la superficie (ley de Snell) y, de esta forma, aumentar la recolección de luz. Finalmente las fibras multiclad se encuentras recubiertas por un segundo clad formado por un material Fluor-acrilico de un grosor de $10~\mu\meter$ y con un índice de reflacción de $1.42$, nuevamente inferior al índice del primer clad por la misma razon, aumentar la recolección de luz todavía mas.
+
+La manera de realizar este exprimento será medir la eficiencia de colección de las fibras (en número de fotones por nanosegundo) para cada uno de los tipos de fibra anteriormente mencionados. Ello se realizará a traves de la siguiente expresión:
+
+\begin{equation}
+N.\gamma/~\nano\second=(I_{PMT}-I_{DC})10^{-9}/\epsilon/e
+\label{intensidad}
+\end{equation}
+
+
+donde:
+\begin{itemize}
+\item{} $N.\gamma/~\nano\second$ es la eficiencia de colección, 
+\item{} $I_{PMT}$ y $I_{DC}$ es la señal de intensidad medida en amperios obtenida de cada fibra cuando estamos alimentando la LED del sistema y cuando no, respectivamente. Esta señal se obtiene con ayuda de un tubo fotomultiplicador Hamamatsu R8520-ZB2771, el cual se encuentra en el laboratorio de reacciones nucelares y esta caracterizado y bien conocido. Esta señal se lee directamente con un picoamperímetro que promedia sobre N muestras (N=100 para nuestro estudio).
+\item{} $\epsilon$ es la eficiencia del fotomultiplicador empleado, para nuestro caso $29.76\%$
+\item{} $e$ es la carga del electrón.
+\item{} el factor $10^{-9}$ aparece debido al cambio de unidades.
+\end{itemize}
+
+También se pretende determinar la desviación estandar asociada al proceso de preparación de cada fibra, $\sigma_{int}$, el cual estará presente en el experimento Tritium. Esta es una incertidumbre inerente en nuestro experimento debido al hecho de que cada fibra del detector Tritium necesita de un proceso de preparación que incluye tanto cortes con una guillotina especialmente fabricada en los talleres del IFIC, pulido con 5 hojas de diferente grosor, limpieza y tratamiento de las superficies de la fibra, etc. 
+
+Sin embargo, hay que tener en cuenta que el sistema que se ha diseñado para medir estas magnitudes posee en todo momento una incertidumbre adicional debida a la posición de la fibra en el mismo, $\sigma_{pos}$. Dado que se trata de incertidumbres no correlacionadas podemos expresar esto con la siguiente ecuación matemática:
+
+\begin{equation}
+\sigma_{total}=\sqrt{\sigma_{pos}^2+\sigma_{int}^2}
+\label{dispersiontotal}
+\end{equation}
+
+donde $\sigma_{total}$ es la incertidumbre que medimos en un experimento.
+
+Por tanto, dado que únicamente nos interesa determinar la incertidumbre asociada al proceso de fabricación ya que es la única que intervendrá en el proyecto Tritium, para poder medir esta necesitamos diseñar dos experimentos:
+\begin{itemize}
+\item{} Un primer experimento en el que no contribuya la incertidumbre debida al proceso de fabricación $\sigma_{int}=0$ y que, por tanto, nos permita cuantificar la desviación estandar debida a la posición de la fibra:
+$$\sigma_{total}=\sigma_{pos}$$
+\item{} Un segundo experimento en el que si contribuya la incertidumbre debida al proceso de fabricación (y la debida a la posición de la fibra, la cual es inevitable). Este estudio nos permitirá cuantificar $\sigma_{total}$ para cada tipo de fibra, cuya expresión corresponde a la expresión \ref{dispersiontotal} y, conocida $\sigma_{pos}$ del estudio anterior, podremos extraer el valor de $\sigma_{int}$ como:
+
+\begin{equation}
+\sigma_{int}=\sqrt{\sigma_{total}^2-\sigma_{pos}^2}
+\label{incertidumbreint}
+\end{equation}
+La cual, como hemos dicho, es la única incertidumbre interesante desde el punto de vista del proyecto Tritium.
+\end{itemize}

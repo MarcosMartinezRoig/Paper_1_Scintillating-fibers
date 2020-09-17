@@ -1,0 +1,13 @@
+\select@language {spanish}
+\contentsline {paragraph}{}{1}{section*.2}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{2}{section.1}
+\contentsline {section}{\numberline {2}Dispostivo experimental}{3}{section.2}
+\contentsline {section}{\numberline {3}Preparaci\IeC {\'o}n del dispositivo}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Comprobaci\IeC {\'o}n del di\IeC {\'a}metro de las fibras utilizadas}{6}{subsection.3.1}
+\contentsline {section}{\numberline {4}Comprobaci\IeC {\'o}n de la hermiticidad a la luz de la caja oscura empleada en el estudio}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Estudio de la linealidad del PMT}{8}{subsection.4.1}
+\contentsline {section}{\numberline {5}Medici\IeC {\'o}n de la desviaci\IeC {\'o}n estandar debida a la posici\IeC {\'o}n de la fibra en el dispositivo experimental}{12}{section.5}
+\contentsline {section}{\numberline {6}Medici\IeC {\'o}n de la desviaci\IeC {\'o}n estandar debida al proceso de preparaci\IeC {\'o}n de las fibras}{15}{section.6}
+\contentsline {section}{\numberline {7}Implementaci\IeC {\'o}n de un exhaustivo protocolo de limpieza de la superficie de las fibras}{19}{section.7}
+\contentsline {section}{\numberline {8}Implementaci\IeC {\'o}n de un exhaustivo protocolo de limpieza de la superficie de las fibras para la construcci\IeC {\'o}n del prototipo Tritium 1}{23}{section.8}
+\contentsline {section}{\numberline {9}Comprobaci\IeC {\'o}n de la necesidad de pulir ambas secciones de la fibra en el prototipo Tritium 1}{23}{section.9}

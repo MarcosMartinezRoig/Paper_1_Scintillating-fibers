@@ -1,0 +1,46 @@
+Bunch de 25 fibras de 20 cm cortadas, pulidas y limpiadas con el proceso del ICMOL (uno con UV y otro sin).
+Comparación de lo quemadas que estaban las fibra debido al UV. 
+
+PMT 1 y 2 with HV=800 V
+
+Modulo de coincidencias CAEN 4 channels discrimindor. 
+	Canal utilizado = 1. Umbral approx 100 mV.
+
+Gate and delay generator -> Puerta
+	Puerta de 4microsegundos
+	Rueda=1.0
+	switch 1.1microsegundos
+
+Preamplificador ORTEC MODEL 9326 FAST PREAMPLI. 
+Amplificador ORTEC 575A
+	+Fine Gain: 10
+	+Course Gain: 20
+
+MCA pocket MCA8000D
+	High gate.
+
+Totalmente quemadas
+
+Posterior estudio con CAEN QUAD SCALER AND PRESET COUNTER-TIMER para estudiar la mejor elección del 
+voltaje de los PMTs y del umbral del discriminador para el estudio.
+
+Los parámetros elegios han sido:
+
+Continuación del estudio de fibras con los nuevos parámetros.
+
+Lo estudio a realizar son:
+
+- Estudio de la calidad del pulido (bunch junto y separado):
+	Un bunch de 25 fibras de 15 cm pulido y otro sin pulir (limpieza en el ICMOL sin UV). 
+		Comparación con varias fuentes (Sr-90, Co-60)
+		Comparación a nivel de colección de luz (LED azul)
+
+- Estudio de como afecta el UV a las fibras (unicamente a nivel de producción de luz, ya que en teoría no afecta a la colección. Quizá sea interesante comprobar que es verdad)
+	Bunchs de 25 fibras de 15 cm (pulidas o no, dependiendo del resultado anterior) con el proceso de limpieza del ICMOL.
+		+Uno sin UV, uno con 30 seg. de UV y otro con 1 min. de UV.
+
+
+-Estudio de la variación de la relación entre señal y longitud de las fibras (fibras de varias longitudes 
+(10 cm, 15 cm, 20 cm, 25 cm, 30 cm))
+
+corrector SALT

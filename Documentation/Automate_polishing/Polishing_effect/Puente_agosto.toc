@@ -1,0 +1,13 @@
+\beamer@sectionintoc {1}{PETSYS}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Bash code}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Id. Channels}{3}{0}{1}
+\beamer@subsectionintoc {1}{3}{Scintillator Crystal}{3}{0}{1}
+\beamer@subsectionintoc {1}{4}{Polishing effect with SiPM arrays}{3}{0}{1}
+\beamer@subsectionintoc {1}{5}{Other posible studies}{3}{0}{1}
+\beamer@sectionintoc {2}{LARAM}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Polishing effect with PMTs}{3}{0}{2}
+\beamer@sectionintoc {3}{TRITIUM-IFIC 2}{3}{0}{3}
+\beamer@subsectionintoc {3}{1}{Coincidence effect}{3}{0}{3}
+\beamer@subsectionintoc {3}{2}{Effect to the lead}{3}{0}{3}
+\beamer@sectionintoc {4}{TRITIUM-IFIC 3}{3}{0}{4}
+\beamer@sectionintoc {5}{Future studies}{3}{0}{5}
